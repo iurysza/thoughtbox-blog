@@ -1,0 +1,15 @@
+- id: Iury Souza
+  avatar: avatars/iury-souza-avatar.png
+  bio: Coding is comunicating
+  twitter: iurysza
+  website: https://iurysouza.render.com/
+  location: Belo Horizonte, Brazil
+  profile_image: img/computer.jpg
+- id: Another Author
+  avatar: avatars/ghost.png
+  bio: This is another test author with a profile background image
+  twitter: TryGhost
+  facebook: ghost
+  website: https://ghost.org/
+  location: San Francisco
+  profile_image: img/computer.jpg
