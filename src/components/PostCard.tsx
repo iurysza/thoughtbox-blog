@@ -10,7 +10,6 @@ import styled from '@emotion/styled';
 
 import { colors } from '../styles/colors';
 import { PageContext } from '../templates/post';
-import { AuthorList } from './AuthorList';
 
 export interface PostCardProps {
   post: PageContext;
@@ -59,18 +58,7 @@ export const PostCard: React.FC<PostCardProps> = ({ post, large = false }) => {
           </PostCardExcerpt>
         </Link>
         <PostCardMeta className="post-card-meta">
-          <AuthorList authors={post.frontmatter.author} tooltip="small" />
           <PostCardBylineContent className="post-card-byline-content">
-            <span>
-              {post.frontmatter.author.map((author, index) => {
-                return (
-                  <React.Fragment key={author.id}>
-                    <Link to={`/author/${_.kebabCase(author.id)}/`}>{author.id}</Link>
-                    {post.frontmatter.author.length - 1 > index && ', '}
-                  </React.Fragment>
-                );
-              })}
-            </span>
             <span className="post-card-byline-date">
               <time dateTime={datetime}>{displayDatetime}</time>{' '}
               <span className="bull">&bull;</span> {post.timeToRead} min read
@@ -219,7 +207,7 @@ const PostCardBylineContent = styled.div`
   flex: 1 1 50%;
   display: flex;
   flex-direction: column;
-  margin: 4px 0 0 10px;
+  margin: 4px 0 0 0px;
   /* color: color(var(--midgrey) l(+10%)); */
   color: ${lighten('0.1', colors.midgrey)};
   font-size: 1.2rem;
