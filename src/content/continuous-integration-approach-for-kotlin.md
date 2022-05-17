@@ -24,9 +24,9 @@ Successful Continuous integration means new code changes to an app are regularly
 It’s also a solution to the problem of having too many branches of an app in development at once that might conflict with each other.
 The main benefits here is making sure that the code quality doesn't decrease while keep this process small and automated.
 
-You can check my [DevOps series](https://dev.to/iurysza/series/10189) articles, where I go deeper about some concepts behind CI and automation.
-{% post iurysza/introduction-jg5 %}
-{% post iurysza/part-2-automation-454g %}
+You can check my DevOps series articles, where I go deeper about some concepts behind CI and automation.
+[A Primer]https://github.com/iurysza/thoughtbox-blog/devops-primer/)
+[The First Way](https://github.com/iurysza/thoughtbox-blog/devops-the-first-way/)
 
 # Pipelines
 
@@ -79,10 +79,7 @@ To improve the code review process you can automate some parts of it. To do that
 Static analysis is done on the code base of the application without the need to run the software. The goal here is to ensure the code doesn’t have bugs and conforms to standard formatting and styling. You might want to check this [article](link) I've written about it with my approach for Kotlin projects.
 
 Ideally, developers should have fast feedback for issues during this step, so they can start fixing them ASAP.
-To do that, I've forked the [danger-checkstyle-format](link) plugin and added some changes to enable reporting issues from both `ktlint` and `detekt` directly on the PR, making developer iteration faster.
-
-If you want to try it out you can get it here:
-{% github iurysza/danger-checkstyle_format %}
+To do that, I've forked the [danger-checkstyle-format](github.com/iurysza/danger-checkstyle_format) plugin and added some changes to enable reporting issues from both `ktlint` and `detekt` directly on the PR, making developer iteration faster. Check it out.
 
 ## Build
 In this step we use a gradle task to build our code.
