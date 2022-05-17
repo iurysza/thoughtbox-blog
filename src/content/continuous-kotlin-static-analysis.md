@@ -75,7 +75,7 @@ So, the magic here is to get the files that were changed in our commit
 - In line 44 we process the output so that we can pass the filename list to ktlint/detekt.
 - From lines 13 to 20 we decide whether we need to run static analysis or just ignore all files.
 
-{% gist https://gist.github.com/iurysza/dada9047da83d101a6c4b63ed8407cb3 %}
+[ktlint.gradle-gist](https://gist.github.com/iurysza/dada9047da83d101a6c4b63ed8407cb3)
 
 
 And that's about it! The rest of the code (from both scripts) just handles the report output location.
@@ -87,7 +87,7 @@ If you're not familiar with git-hooks, you can check them [here](https://www.atl
 
 The `pre-commit` hook will run when you try to commit something. It runs before git actually creates the commit, so the idea is to only allow a new commit when our static analysis passes successfully, effectively creating our first quality gate. Woot woot!
 
-`gist:iurysza/005c08ff7f1892097c2823b1786ac087#<gist_file>`
+[precommit-hook-gist](https://gist.github.com/iurysza/fc6d0b735089c573aa5b0ce8797ef548#file-pre-commit-hook)
 
 ![](https://media.giphy.com/media/IwAZ6dvvvaTtdI8SD5/giphy.gif)
 
