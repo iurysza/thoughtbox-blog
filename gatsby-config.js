@@ -2,7 +2,7 @@
 const path = require('path');
 
 module.exports = {
-  path: "/toughtbox-blog",
+  pathPrefix: "/thoughtbox-blog",
   siteMetadata: {
     title: 'Thought box',
     description: 'This is where I put some of my thoughts',
