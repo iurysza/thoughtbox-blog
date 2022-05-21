@@ -2,10 +2,11 @@
 const path = require('path');
 
 module.exports = {
+  path: "/toughtbox-blog",
   siteMetadata: {
     title: 'Thought box',
     description: 'This is where I put some of my thoughts',
-    siteUrl: 'https://gatsby-casper.netlify.com', // full path to blog - no ending slash
+    siteUrl: 'https://iurysza.github.io/thoughtbox-blog', // full path to blog - no ending slash
   },
   mapping: {
     'MarkdownRemark.frontmatter.author': 'AuthorYaml',
@@ -84,7 +85,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: 'https://gatsby-casper.netlify.com',
+        siteUrl: 'https://iurysza.github.io/thoughtbox-blog',
       },
     },
     'gatsby-plugin-typescript',
