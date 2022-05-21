@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://iurysza.github.io/thoughtbox-blog/thoughtbox-blog/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://iurysza.github.io/thoughtbox-blog/thoughtbox-blog/setting-up-mockserver/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://iurysza.github.io/thoughtbox-blog/thoughtbox-blog/kotlin-scripting/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://iurysza.github.io/thoughtbox-blog/thoughtbox-blog/devops-primer/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://iurysza.github.io/thoughtbox-blog/thoughtbox-blog/devops-the-first-way/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://iurysza.github.io/thoughtbox-blog/thoughtbox-blog/continuous-kotlin-static-analysis/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://iurysza.github.io/thoughtbox-blog/thoughtbox-blog/publishing-an-obfuscated-kotlin-library/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://iurysza.github.io/thoughtbox-blog/thoughtbox-blog/continuous-integration-approach-for-kotlin/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://iurysza.github.io/thoughtbox-blog/thoughtbox-blog/tags/docker/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://iurysza.github.io/thoughtbox-blog/thoughtbox-blog/tags/testing/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://iurysza.github.io/thoughtbox-blog/thoughtbox-blog/tags/kotlin/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://iurysza.github.io/thoughtbox-blog/thoughtbox-blog/tags/scripting/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://iurysza.github.io/thoughtbox-blog/thoughtbox-blog/tags/automation/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://iurysza.github.io/thoughtbox-blog/thoughtbox-blog/tags/devops/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://iurysza.github.io/thoughtbox-blog/thoughtbox-blog/tags/devops-automation-ci-cd/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://iurysza.github.io/thoughtbox-blog/thoughtbox-blog/tags/mobile/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://iurysza.github.io/thoughtbox-blog/thoughtbox-blog/tags/qa/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://iurysza.github.io/thoughtbox-blog/thoughtbox-blog/tags/java/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://iurysza.github.io/thoughtbox-blog/thoughtbox-blog/tags/appsec/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://iurysza.github.io/thoughtbox-blog/thoughtbox-blog/tags/gradle/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://iurysza.github.io/thoughtbox-blog/thoughtbox-blog/tags/ci/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://iurysza.github.io/thoughtbox-blog/thoughtbox-blog/tags/android/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://iurysza.github.io/thoughtbox-blog/thoughtbox-blog/author/iury-souza/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://iurysza.github.io/thoughtbox-blog/thoughtbox-blog/author/another-author/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://iurysza.github.io/thoughtbox-blog/thoughtbox-blog/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+</urlset>
